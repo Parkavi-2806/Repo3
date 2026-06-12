@@ -1,6 +1,6 @@
 pipeline {
 
-    agent {lable 'kavi-network'}
+    agent {label 'kavi-network'}
 
     environment {
 
@@ -17,7 +17,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                url: 'git@github.com:Parkavi-2806/Repo3.git' , credentialID: 'kavi-github-cred'
+                url: 'git@github.com:Parkavi-2806/Repo3.git' , credentialsID: 'kavi-github-cred'
             }
         }
 
