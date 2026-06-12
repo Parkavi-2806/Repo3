@@ -17,7 +17,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                url: 'git@github.com:Parkavi-2806/Repo3.git' , credentialsID: 'kavi-github-cred'
+                url: 'git@github.com:Parkavi-2806/Repo3.git' , credentialsId: 'kavi-github-cred'
             }
         }
 
